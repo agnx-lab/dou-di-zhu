@@ -1,0 +1,24 @@
+{
+  "seed": 20260911,
+  "training_examples": 960,
+  "test_examples": 240,
+  "targets": [
+    "王炸概率",
+    "炸弹概率",
+    "控制力"
+  ],
+  "model_mse": [
+    0.10692065,
+    0.15655681,
+    0.04683225
+  ],
+  "rule_mse": [
+    0.08996882,
+    0.14989074,
+    0.04774063
+  ],
+  "model_mean_mse": 0.10343658,
+  "rule_mean_mse": 0.09586673,
+  "activation": "rule_retained",
+  "decision": "仅当神经模型误差至少低 5% 才允许进入在线融合"
+}

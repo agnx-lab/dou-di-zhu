@@ -1,0 +1,8 @@
+-e ./third_party/DouZero
+GitPython==3.1.45
+edge-tts==7.2.8
+fastapi==0.141.1
+httpx==0.28.1
+pytest==8.4.2
+rlcard==1.2.0
+uvicorn[standard]==0.52.4

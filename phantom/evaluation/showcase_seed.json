@@ -1,0 +1,19 @@
+{
+  "seed": 20260911,
+  "source": "searched_real_douzero_game",
+  "criteria": {
+    "minimum_cognitive_overrides": 1,
+    "requires_hidden_strength": true,
+    "requires_exploit_state": true,
+    "minimum_base_value_retention": 0.98
+  },
+  "verified_result": {
+    "seed": 20260911,
+    "turns": 27,
+    "winner": "farmer",
+    "cognitive_overrides": 1,
+    "hidden_strength_triggered": true,
+    "exploit_state_reached": true,
+    "base_value_retention": 0.998352
+  }
+}

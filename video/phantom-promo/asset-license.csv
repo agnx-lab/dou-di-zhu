@@ -1,0 +1,7 @@
+asset,source,license,status,notes
+product-ui,local PHANTOM project,user-owned,approved,real local demo only
+stable-replay,output/sessions/showcase-20260911.jsonl,user-owned,approved,seeded reproducible data
+frontend-card-foley,frontend/public/audio,CC0 1.0,approved,Kenney Casino Audio 1.1; verified against THIRD_PARTY_NOTICES.md
+video-shotcraft-sfx,video-shotcraft assets/audio/sfx,Mixkit SFX Free License,approved,all selected filenames traced in video-shotcraft ATTRIBUTION.md
+video-shotcraft-bgm,video-shotcraft assets/audio/bgm,Mixkit Stock Music Free License,approved,Tonight by Michael Ramir C.; source https://assets.mixkit.co/music/841/841.mp3
+voiceover,https://cosyvoice.org/zh/,site-generated output,approved-by-user,晓悦 ordinary Mandarin; two user-authorized narration chunks; local masters chapter-a.wav and chapter-b.wav

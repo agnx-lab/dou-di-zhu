@@ -1,0 +1,37 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db
+*.log
+
+# Local agent/project notes
+CODEX_RULES.md
+PHANTOM_DOU_DIZHU_CODEX_EXECUTION_PLAN.md
+docs/PHANTOM_PROMO_VIDEO_CODEX_EXECUTION_PLAN.md
+
+# Generated training/runtime data
+artifacts/*.json
+frontend/node_modules/
+frontend/.next/
+frontend/.sites-runtime/
+frontend/.vinext/
+frontend/.wrangler/
+frontend/dist/
+frontend/next-env.d.ts
+output/logs/
+output/profiles/
+output/sessions/*.jsonl
+!output/sessions/showcase-20260911.jsonl
+
+# Promo-video dependencies, captures and renders
+video/phantom-promo/node_modules/
+video/phantom-promo/public/textures/live/
+video/phantom-promo/renders/
+video/phantom-promo/debug.log
+
+# Preserved local metadata for the vendored DouZero checkout
+third_party/DouZero/.git.local-backup/
