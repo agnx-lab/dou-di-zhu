@@ -1,0 +1,45 @@
+{
+  "id": "phantom",
+  "name": "斗地主",
+  "version": "0.1.0",
+  "description": "Agnx 外置子应用：幻局（PHANTOM）斗地主 + FastAPI/WS sidecar + Guest Web",
+  "engines": {
+    "agnx": ">=1.0.0"
+  },
+  "main": "./dist/index.js",
+  "icon": "./frontend/public/favicon.svg",
+  "platforms": {
+    "desktop": "supported",
+    "web": "partial",
+    "mobile": "unsupported"
+  },
+  "sidecar": {
+    "supervised": true,
+    "ensureTool": ".agnx/tools/ensure-phantom.mjs",
+    "stateFile": "phantom.json",
+    "defaultPort": 5173,
+    "lifecycle": "lazy"
+  },
+  "guest": {
+    "kind": "web",
+    "auth": "none",
+    "preferStrategy": "auto",
+    "capabilities": [
+      "websocket"
+    ]
+  },
+  "contributes": {
+    "commands": [
+      {
+        "id": "phantom.open",
+        "title": "斗地主"
+      }
+    ],
+    "panels": [
+      {
+        "id": "phantom.main",
+        "title": "斗地主"
+      }
+    ]
+  }
+}

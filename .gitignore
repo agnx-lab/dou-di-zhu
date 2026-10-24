@@ -35,3 +35,7 @@ video/phantom-promo/debug.log
 
 # Preserved local metadata for the vendored DouZero checkout
 third_party/DouZero/.git.local-backup/
+
+# Agnx 子应用胶水产物必须入库（上游裸 dist 规则会误伤 .agnx/dist）
+!.agnx/dist/
+!.agnx/dist/**

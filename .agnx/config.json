@@ -1,0 +1,10 @@
+{
+  "appId": "phantom",
+  "installState": "installed",
+  "launchMode": "packaged",
+  "source": {
+    "kind": "github",
+    "url": "https://github.com/wolfgang008/dou-di-zhu"
+  },
+  "updatedAt": "2026-10-15T07:29:38.192Z"
+}
